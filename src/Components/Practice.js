@@ -19,7 +19,7 @@ const Practice = () => {
         <React.Fragment>
             <h1>The count is: {count}</h1>
             <button onClick={handleIncrement}>Increment</button>
-            {/* this is just a reference.. if you add () to end, this is just re-rendering */}
+            {/* this is just a reference.. if you add () to end, this would just re-render */}
             <button onClick={() => setCount(count - 1)}>Decrement</button>
         </React.Fragment>
         //react.fragmanent - top level... like <div></div>

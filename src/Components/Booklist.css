@@ -1,0 +1,28 @@
+body{
+    background-color: lightblue;
+}
+
+.bList{
+    width: 90vw;
+    max-width: 1170px;
+    margin: 5rem auto;
+    display: grid;
+    gap: 2rem;
+
+}
+
+
+@media screen and (min-width: 768px){
+    .bList{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+.book {
+    border: solid;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background-color: white;
+
+}
